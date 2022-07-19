@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+body {
+    background:#2a2b42;
+    font-family: "DM Sans", sans-serif;
+    margin:0;
+    padding:0;
+}
+header {
+    border-bottom:1px solid #363B63;
+    padding-bottom:0.5%;
+}
+h1 {
+    width:50%;
+    color:#FAFAFA;
+    margin: 130px auto 0 auto;
+    font-size:50px;
+    text-align: center;
+}
+h3 {
+    color:#D0D0DA;
+    text-align: center;
+    margin:auto;
+    font-size:25px;
+    width:50%;
+}
+.nav {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#FAFAFA;
+    font-size:1.3rem;
+}
+h4 {
+    font-size:25px;
+}
+.menu ul li {
+    display:inline;
+    padding:15px;
+}
+.menu ul {
+    padding:0;
+}
+.menu ul li a {
+    color:#FAFAFA;
+    text-decoration:none;
+}
+.menu ul li a:hover {
+    color:#6575ee;
+}
+.icon {
+    width:30px;
+}
+.bezos {
+    width:300px;
+    display:block;
+    margin: 50px auto;
+    border-radius: 12px;
+    border:2px solid #FAFAFA;
+}
+.btn {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 12px 24px;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    color: #F5F5FF;
+    background: rgba(255, 255, 255, 0.1);
+}
+.chart {
+    display:flex;
+    justify-content: center;
+    margin:30px 0;
+}
+.token {
+    display:flex;
+    justify-content: space-between;
+    width:60%;
+    margin: 100px auto;
+}
+.tokenomics, .fees, .team {
+    width:25%;
+    text-align: center;
+    border: 2px solid #363B63;
+    background-color: #2D3153;
+    padding: calc(24px - 2px);
+    border-radius: 12px;
+    color:#FAFAFA;
+}
+footer {
+    border-top:0.5px solid #363B63;
+    margin:20px auto;
+    text-align: center;
+    color:#FAFAFA;
+    font-size:15px;
+}
+@media screen and (max-width:1370px) {
+    .token {
+        flex-direction:column;
+        justify-content: center;
+        width:90%;
+    }
+    .tokenomics, .fees, .team {
+        width:60%;
+        margin:20px auto;
+    }
+}
+@media screen and (max-width:810px) {
+    .nav {
+        flex-direction: column;
+        width:80%;
+        margin:auto;
+    }
+    .chad,.menu {
+        width:100%;
+        margin:auto;
+        text-align: center;
+    }
+    h3,h1 {
+        width:80%;
+    }
+}
